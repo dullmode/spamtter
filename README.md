@@ -22,7 +22,6 @@ git clone https://github.com/dullmode/spamtter.git
 
 cd spamtter/
 
-git clone https://github.com/dullmode/spamtter.git
 echo -e API_KEY=xxxxxxxx\\n\
     API_KEY_SECRET=xxxxxxxx\\n\
     ACCESS_TOKEN=xxxxxxxx\\n\
