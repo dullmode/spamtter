@@ -27,9 +27,9 @@ echo -e API_KEY=xxxxxxxx\\n\
     INTERVAL=3600\\n\
     QUERY=xxxxxxxx > service/.env
 ```
-QUERY is the word you want to make favorites.
-COUNT is number of tweets you search.
-INTERVAL is time to excute program regurally.
+* QUERY is the word you want to make favorites.
+* COUNT is number of tweets you search.
+* INTERVAL is time to excute program regurally.
 then, create and run docker.
 ```bash
 python3 service/main.py
