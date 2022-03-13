@@ -19,6 +19,10 @@ git clone https://github.com/dullmode/spamtter.git
 you need to create .env file in service/
 ```bash
 git clone https://github.com/dullmode/spamtter.git
+```
+`cd spamtter/`
+```bash
+git clone https://github.com/dullmode/spamtter.git
 echo -e API_KEY=xxxxxxxx\\n\
     API_KEY_SECRET=xxxxxxxx\\n\
     ACCESS_TOKEN=xxxxxxxx\\n\
@@ -30,6 +34,8 @@ echo -e API_KEY=xxxxxxxx\\n\
 * QUERY is the word you want to make favorites.
 * COUNT is number of tweets you search.
 * INTERVAL is time to excute program regurally.
+
+
 then, create and run docker.
 ```bash
 python3 service/main.py
