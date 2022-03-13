@@ -19,9 +19,9 @@ git clone https://github.com/dullmode/spamtter.git
 you need to create .env file in service/
 ```bash
 git clone https://github.com/dullmode/spamtter.git
-```
-`cd spamtter/`
-```bash
+
+cd spamtter/
+
 git clone https://github.com/dullmode/spamtter.git
 echo -e API_KEY=xxxxxxxx\\n\
     API_KEY_SECRET=xxxxxxxx\\n\
