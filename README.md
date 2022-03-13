@@ -1,11 +1,11 @@
 # spamtter
 
-spamtter create favorites automatically.
+spamtter create favorites automatically and regurally
 
 # Requirement
 
-* docker
-* docker-compose
+* python3
+* tweepy==3.9.0
 * twitter api keys(Elevated Access)
 
 # Installation
@@ -19,18 +19,20 @@ git clone https://github.com/dullmode/spamtter.git
 you need to create .env file in service/
 ```bash
 git clone https://github.com/dullmode/spamtter.git
-cd spamtter/service
 echo -e API_KEY=xxxxxxxx\\n\
     API_KEY_SECRET=xxxxxxxx\\n\
     ACCESS_TOKEN=xxxxxxxx\\n\
     ACCESS_TOKEN_SECRET=xxxxxxxx\\n\
-    QUERY=xxxxxxxx > .env
+    COUNT=40\\n\
+    INTERVAL=3600\\n\
+    QUERY=xxxxxxxx > service/.env
 ```
 QUERY is the word you want to make favorites.
+COUNT is number of tweets you search.
+INTERVAL is time to excute program regurally.
 then, create and run docker.
 ```bash
-cd ../
-docker-compose up --build
+python3 service/main.py
 ```
 
 # Note
