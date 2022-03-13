@@ -40,6 +40,5 @@ python3 service/main.py
 I accept no responsibility for any loss resulting from spamtter.
 
 # License
-ライセンスを明示する
 
 spamtter is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
